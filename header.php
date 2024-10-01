@@ -144,7 +144,7 @@ if (!isset($_SESSION['admin_id']) && !isset($_SESSION['user_id'])) {
                         <!--//nav-item-->
                         <!-- <li class="nav-item"> -->
                             <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
-                            <!-- <a class="nav-link" href="orders.html">
+                            <a class="nav-link" href="update-password.php">
                                 <span class="nav-icon">
                                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-list"
                                         fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -157,10 +157,10 @@ if (!isset($_SESSION['admin_id']) && !isset($_SESSION['user_id'])) {
                                         <circle cx="3.5" cy="10.5" r=".5" />
                                     </svg>
                                 </span>
-                                <span class="nav-link-text">Report</span>
+                                <span class="nav-link-text">Update Password</span>
                             </a> -->
                             <!--//nav-link-->
-                        <!-- </li> -->
+                        <!-- </li>
                         <?php } ?>
                     </ul>
                     <!--//app-menu-->
