@@ -3,7 +3,7 @@ session_start();
 
 // Redirect to admin page if the user is already logged in
 if (isset($_SESSION['user_id'])) {
-    header('Location: admin-view.php');
+    header('Location: dashboard.php');
     exit();
 }
 ?>
